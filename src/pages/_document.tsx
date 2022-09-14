@@ -1,4 +1,5 @@
 import Document, { DocumentContext, DocumentInitialProps, Head, Html, Main, NextScript } from 'next/document'
+import { ColorModeScript } from '@chakra-ui/react'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
@@ -9,9 +10,11 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html className="h-screen transition duration-150 ease-in-out">
+      <Html>
         <Head />
-        <body className="h-full w-full bg-zinc-50">
+        <body>
+          {/* Make Color mode to persist when you refresh the page. */}
+          <ColorModeScript/>
           <Main />
           <NextScript />
         </body>
