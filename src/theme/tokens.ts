@@ -1,3 +1,5 @@
+import colors from '@/theme/colors'
+
 export const semanticTokens = {
   colors: {
     text: {
@@ -14,9 +16,11 @@ export const semanticTokens = {
     },
     registrationGradientStart: {
       default: '#FEE140',
+      _dark: '#F09819',
     },
     registrationGradientEnd: {
       default: '#FA709A',
+      _dark: '#FF5858',
     },
     'bg-canvas': {
       default: 'neutral.50',

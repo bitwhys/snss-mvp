@@ -1,4 +1,4 @@
-import { Button, Divider, Heading, Input, Stack, Text, Container, useBreakpointValue } from '@chakra-ui/react'
+import { Box, Button, Divider, Heading, Input, Stack, Text, Container, useBreakpointValue } from '@chakra-ui/react'
 import { Logo } from '@/components/Logo'
 import { GoogleIcon } from '@/components/ProviderIcons'
 
@@ -33,8 +33,8 @@ const RegistrationForm = () => (
         <Text fontSize="sm" color="muted">
           Having trouble logging in?
         </Text>
-        <Button variant="link" colorScheme="blue" size="sm">
-          Contact us
+        <Button variant="link" colorScheme="indigo" size="sm">
+          Submit an issue
         </Button>
       </Stack>
       <Text fontSize="xs" color="subtle" textAlign="center">
