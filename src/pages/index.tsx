@@ -36,7 +36,7 @@ const LandingPage = () => (
           alt="Screenshot for Form builder"
         />
       </Flex>
-      {/* Logo Grid */}
+      {/* Logomark Grid */}
       <Box>
         <Text color={mode('neutral.600', 'neutral.400')} fontWeight="medium">
           Proudly trusted by 5,000+ companies and individuals

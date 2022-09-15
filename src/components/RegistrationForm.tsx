@@ -1,6 +1,18 @@
-import { Box, Button, Divider, Heading, Input, Stack, Text, Container, useBreakpointValue } from '@chakra-ui/react'
-import { Logo } from '@/components/Logo'
+import {
+  Box,
+  Button,
+  Divider,
+  Heading,
+  Input,
+  Stack,
+  Text,
+  Container,
+  useBreakpointValue,
+  HStack,
+} from '@chakra-ui/react'
+import { Logomark } from '@/components/Logomark'
 import { GoogleIcon } from '@/components/ProviderIcons'
+import { Wordmark } from '@/components/Wordmark'
 
 const RegistrationForm = () => (
   <Container
@@ -13,7 +25,7 @@ const RegistrationForm = () => (
   >
     <Stack spacing="8">
       <Stack spacing="6" align="center">
-        <Logo />
+        <Logomark />
         <Stack spacing="3" textAlign="center">
           <Heading size="xs">Log in to your account</Heading>
           <Text color="muted">Start making your dreams come true</Text>
